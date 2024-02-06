@@ -1,0 +1,66 @@
+/* style.css */
+.invitation {
+    position: relative;
+    max-width: 100%;
+}
+
+.image-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.wedding-image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: rgb(22, 17, 17);
+    text-align: center;
+    padding: 20px;
+    
+    font-style: italic;
+}
+.overlay h2 {
+    font-size: xx-large; /* Increase the font size as needed */
+}
+
+.invitation h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.invitation h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.invitation p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .invitation h1 {
+        font-size: 1.5rem;
+    }
+
+    .invitation h2 {
+        font-size: 1.2rem;
+    }
+
+    .invitation p {
+        font-size: 0.9rem;
+    }
+}
